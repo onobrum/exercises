@@ -7,7 +7,7 @@ function experiencePoints() {
     }
 }
 
-var experiencePoints = winBattle() ? 10 : 1;
+//answer: var experiencePoints = winBattle() ? 10 : 1;
 
 //Using this function, answer the questions below:
 function moveCommand(direction) {
@@ -34,13 +34,13 @@ function moveCommand(direction) {
 }
 
 //#2 return value when moveCommand("forward");
-undefined
+//answer: undefined
 
 //#3 return value when moveCommand("back");
-"you arrived home"
+//answer: "you arrived home"
 
 //#4 return value when moveCommand("right");
-"you found a river"
+//answer: "you found a river"
 
 //#5 return value when moveCommand("left");
-undefined
+//answer: undefined
