@@ -1,6 +1,6 @@
 //Solve these problems:
 
-//#1 Create a one line function that adds adds two parameters
+//#1 Create a one line function that adds two parameters
 
 //answer: const sum = (a, b) => a + b
 
