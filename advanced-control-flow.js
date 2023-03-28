@@ -1,4 +1,5 @@
-//#1 change this function into a ternary and assign it to variable called experiencePoints
+#1 change this function into a ternary and assign it to variable called experiencePoints
+
 function experiencePoints() {
     if (winBattle()) {
         return 10;
@@ -6,10 +7,10 @@ function experiencePoints() {
         return 1;
     }
 }
+                            //var experiencePoints = winBattle() ? 10 : 1;
 
-//answer: var experiencePoints = winBattle() ? 10 : 1;
+Using this function, answer the questions below:
 
-//Using this function, answer the questions below:
 function moveCommand(direction) {
     var whatHappens;
     switch (direction) {
@@ -33,14 +34,14 @@ function moveCommand(direction) {
     return whatHappens;
 }
 
-//#2 return value when moveCommand("forward");
-//answer: undefined
+#2 return value when moveCommand("forward");
+                            //undefined
 
-//#3 return value when moveCommand("back");
-//answer: "you arrived home"
+#3 return value when moveCommand("back");
+                            //"you arrived home"
 
-//#4 return value when moveCommand("right");
-//answer: "you found a river"
+#4 return value when moveCommand("right");
+                            //"you found a river"
 
-//#5 return value when moveCommand("left");
-//answer: undefined
+#5 return value when moveCommand("left");
+                            //undefined
