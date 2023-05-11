@@ -6,10 +6,10 @@
 //var c = 789;   
 //a = 'test2';
 
-let a = 'test'; 
-const b = true;
-const c = 789;
-a = 'test2';
+                        let a = 'test'; 
+                        const b = true;
+                        const c = 789;
+                        a = 'test2';
 
 //2- Destructuring
 
@@ -25,14 +25,14 @@ a = 'test2';
 //var age = person.age;
 //var eyeColor = person.eyeColor;
 
-const person = {
-firstName : "John",
-lastName  : "Doe",
-age       : 50,
-eyeColor  : "blue"
-};
+                        const person = {
+                        firstName : "John",
+                        lastName  : "Doe",
+                        age       : 50,
+                        eyeColor  : "blue"
+                        };
 
-const { firstName, lastName, age, eyeColor } = person;
+                        const { firstName, lastName, age, eyeColor } = person;
 
 //3- Object properties
 
@@ -46,11 +46,11 @@ const { firstName, lastName, age, eyeColor } = person;
   //c: c
 //};
 
-const a = 'test';
-const b = true;
-const c = 789;
+                        const a = 'test';
+                        const b = true;
+                        const c = 789;
 
-const okObj = {a, b, c};
+                        const okObj = {a, b, c};
 
 //4- Template strings
 
@@ -84,10 +84,10 @@ const sym = Symbol('This is my first Symbol');
     //}
 //}
 
-const whereAmI = (username, location) => {
-if (username && location) {
-return "I am not lost";
-} else {
-return "I am totally lost!";
-}
-}
+                        const whereAmI = (username, location) => {
+                        if (username && location) {
+                        return "I am not lost";
+                        } else {
+                        return "I am totally lost!";
+                        }
+                        }
