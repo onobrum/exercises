@@ -1,4 +1,4 @@
-// Solve the below problems:
+Solve the below problem:
 
 #1) Convert the below promise into async await
 
