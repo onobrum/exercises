@@ -5,13 +5,10 @@
 //var b = true;   
 //var c = 789;   
 //a = 'test2';
-
                             let a = 'test'; 
                             const b = true;
                             const c = 789;
                             a = 'test2';
-
-
 
 //2- Destructuring
 
@@ -36,8 +33,6 @@
 
                             const { firstName, lastName, age, eyeColor } = person;
 
-
-
 //3- Object properties
 
 //var a = 'test';
@@ -49,7 +44,6 @@
   //b: b,
   //c: c
 //};
-
                             const a = 'test';
                             const b = true;
                             const c = 789;
@@ -57,13 +51,11 @@
                             const okObj = {a, b, c};
 
 
-
 //4- Template strings
 
 //var message = "Hello " + firstName + " have I met you before? I think we met in " + city + " last summer no???";
                             
                             const message = `Hello ${firstName} have I met you before? I think we met in ${city}. last summer no???`;
-
 
 //5- default arguments
 
@@ -73,13 +65,11 @@
 //}
                             const isValidAge = (age = 10) => age;const isValidAge = (age = 10) => age;
 
-
 //6- Symbol
 
 //Create a symbol: "This is my first Symbol"
                             
                             const sym = Symbol('This is my first Symbol');
-
 
 //7- Arrow functions
 
