@@ -17,7 +17,7 @@
 
               const power100 = (num) => num**100;
 
-//#4) Useing your function from #3, put in the paramter 10000. What is the result?. Research for yourself why you get this result
+//#4) Using your function from #3, put in the paramter 10000. What is the result?. Research for yourself why you get this result
 
               power100(10000) 
                 Infinity
